@@ -1,5 +1,5 @@
 hello
 =====
-This is the first document of my project！
-helloworld
+This is the project for review the knowledge about golang
+Hello world!
 Thanks!
