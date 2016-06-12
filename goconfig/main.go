@@ -4,10 +4,14 @@ import (
 	"log"
 
 	"github.com/Unknwon/goconfig"
+	"os"
 )
 
 func main() {
-	cfg, err := goconfig.LoadConfigFile("conf.ini")
+	file,_ := os.Getwd()
+	log.Println("current Path:",file)
+	//当前在PyCharm的运行路径不是goconfig内
+	cfg, err := goconfig.LoadConfigFile("goconfig/conf.ini")
 	if err != nil {
 		log.Fatal("unload the conf file")
 	}
