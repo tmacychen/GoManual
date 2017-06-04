@@ -7,13 +7,15 @@ import (
 	"os"
 )
 
+//golang 原生log相关
+
 func main() {
 	fmt.Println("log test")
 	logname := "ll.org"
-	logfile ,err := os.Create(logname)
+	logfile, err := os.Create(logname)
 	defer logfile.Close()
 
-	if err != nil{
+	if err != nil {
 		log.Fatalln("open file now")
 	}
 

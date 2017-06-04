@@ -13,6 +13,7 @@ func base64Decode(src []byte) ([]byte, error) {
 	return base64.StdEncoding.DecodeString(string(src))
 }
 
+// Golang Base64 codeing
 func main() {
 	hello := "你好，世界 ! hello world"
 	debyte := base64Encode([]byte(hello))

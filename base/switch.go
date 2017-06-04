@@ -18,6 +18,7 @@ func (p Person) String() string {
 	return "(name: " + p.name + " - age: " + strconv.Itoa(p.age) + " years)"
 }
 
+//通过switch选择不同数据类型
 func main() {
 	list := make(List, 3)
 	list[0] = 1       //an int
