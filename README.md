@@ -1,8 +1,5 @@
 hello
 =====
-This is the project for review the knowledge about golang
+There is Golang Manual！
+Welcome,Thanks!
 
-Hello world Again!
-
-
-Thanks!
